@@ -6,7 +6,7 @@ import subprocess as sp
 
 sp.Popen('cmd', shell=True)
 
-#driver = webdriver.Chrome(executable_path='C:\\bin\\chromedriver.exe')
+
 driver = webdriver.Chrome()
 driver.get("https://10fastfingers.com/typing-test/portuguese")
 

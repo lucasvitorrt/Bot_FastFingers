@@ -7,6 +7,7 @@ layout = [
     [sg.Button('Iniciar'), sg.T(' ' * 23), sg.Button('Parar')]
 ]
 
+
 window = sg.Window('FastFingers', layout, size=(241, 92), keep_on_top=True)
 
 
